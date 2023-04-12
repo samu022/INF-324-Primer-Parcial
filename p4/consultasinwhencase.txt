@@ -1,0 +1,40 @@
+use mibasesamuelalegre;
+
+SELECT
+	SUM(IF(Departamento='Chuquisaca', notafinal, NULL)) chuquisaca,
+	SUM(IF(Departamento='La Paz', notafinal, NULL)) lapaz,
+	SUM(IF(Departamento='Cochabamba', notafinal, NULL)) cochabamba,
+	SUM(IF(Departamento='Oruro', notafinal, NULL)) oruro,
+	SUM(IF(Departamento='Potosi', notafinal, NULL)) potosi,
+	SUM(IF(Departamento='Tarija', notafinal, NULL)) tarija,
+	SUM(IF(Departamento='Santa Cruz', notafinal, NULL)) santacruz,
+	SUM(IF(Departamento='Beni', notafinal, NULL)) beni,
+	SUM(IF(Departamento='Pando', notafinal, NULL)) pando,
+	SUM(IF(Departamento='Otro', notafinal, NULL)) otro
+FROM (
+	SELECT 
+		IF(Departamento = '01', 'Chuquisaca',
+		IF(Departamento = '02', 'La Paz',
+		IF(Departamento = '03', 'Cochabamba',
+		IF(Departamento = '04', 'Oruro',
+		IF(Departamento = '05', 'Potosi',
+		IF(Departamento = '06', 'Tarija',
+		IF(Departamento = '07', 'Santa Cruz',
+		IF(Departamento = '08', 'Beni',
+		IF(Departamento = '09', 'Pando', 'Otro'))))))))) AS Departamento,
+		AVG(notafinal) AS notafinal
+	FROM (
+		SELECT i.notafinal, p.Departamento
+		FROM persona p
+		INNER JOIN inscripcion i ON i.CIestudiante=p.CI
+	) AS notas
+	GROUP BY IF(Departamento = '01', 'Chuquisaca',
+			IF(Departamento = '02', 'La Paz',
+			IF(Departamento = '03', 'Cochabamba',
+			IF(Departamento = '04', 'Oruro',
+			IF(Departamento = '05', 'Potosi',
+			IF(Departamento = '06', 'Tarija',
+			IF(Departamento = '07', 'Santa Cruz',
+			IF(Departamento = '08', 'Beni',
+			IF(Departamento = '09', 'Pando', 'Otro'))))))))) 
+) AS agregado
