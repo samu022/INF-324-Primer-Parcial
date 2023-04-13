@@ -1,0 +1,1 @@
+http://localhost/p6/index.php/Lectura/
