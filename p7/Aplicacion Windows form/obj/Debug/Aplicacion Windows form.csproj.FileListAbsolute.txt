@@ -1,0 +1,10 @@
+D:\UMSA\Optativas\INF-324 Multimedial\primer parcial\p7\Aplicacion Windows form\bin\Debug\Aplicacion Windows form.exe.config
+D:\UMSA\Optativas\INF-324 Multimedial\primer parcial\p7\Aplicacion Windows form\bin\Debug\Aplicacion Windows form.exe
+D:\UMSA\Optativas\INF-324 Multimedial\primer parcial\p7\Aplicacion Windows form\bin\Debug\Aplicacion Windows form.pdb
+D:\UMSA\Optativas\INF-324 Multimedial\primer parcial\p7\Aplicacion Windows form\obj\Debug\Aplicacion Windows form.csprojAssemblyReference.cache
+D:\UMSA\Optativas\INF-324 Multimedial\primer parcial\p7\Aplicacion Windows form\obj\Debug\Aplicacion_Windows_form.Form1.resources
+D:\UMSA\Optativas\INF-324 Multimedial\primer parcial\p7\Aplicacion Windows form\obj\Debug\Aplicacion_Windows_form.Properties.Resources.resources
+D:\UMSA\Optativas\INF-324 Multimedial\primer parcial\p7\Aplicacion Windows form\obj\Debug\Aplicacion Windows form.csproj.GenerateResource.cache
+D:\UMSA\Optativas\INF-324 Multimedial\primer parcial\p7\Aplicacion Windows form\obj\Debug\Aplicacion Windows form.csproj.CoreCompileInputs.cache
+D:\UMSA\Optativas\INF-324 Multimedial\primer parcial\p7\Aplicacion Windows form\obj\Debug\Aplicacion Windows form.exe
+D:\UMSA\Optativas\INF-324 Multimedial\primer parcial\p7\Aplicacion Windows form\obj\Debug\Aplicacion Windows form.pdb
