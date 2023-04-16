@@ -30,7 +30,7 @@ namespace p7
         public DataSet Persona()
         {
             MySqlConnection con = new MySqlConnection();
-            con.ConnectionString = "server=localhost;user=root;pwd=Carolinaloca123;database=mibasesamuelalegre2; SslMode=none;";
+            con.ConnectionString = "server=localhost;user=root;pwd=Carolinaloca123;database=mibasesamuelalegre; SslMode=none;";
             MySqlDataAdapter ada = new MySqlDataAdapter();
             ada.SelectCommand = new MySqlCommand();
             ada.SelectCommand.Connection = con;
@@ -47,7 +47,7 @@ namespace p7
             try
             {
                 MySqlConnection con = new MySqlConnection();
-                con.ConnectionString = "server=localhost;user=root;pwd=Carolinaloca123;database=mibasesamuelalegre2;SslMode=none;";
+                con.ConnectionString = "server=localhost;user=root;pwd=Carolinaloca123;database=mibasesamuelalegre;SslMode=none;";
 
                 MySqlCommand cmd = new MySqlCommand();
                 cmd.Connection = con;
@@ -72,7 +72,7 @@ namespace p7
         public void eliminar(int ci)
         {
             MySqlConnection con = new MySqlConnection();
-            con.ConnectionString = "server=localhost;user=root;pwd=Carolinaloca123;database=mibasesamuelalegre2; SslMode=none;";
+            con.ConnectionString = "server=localhost;user=root;pwd=Carolinaloca123;database=mibasesamuelalegre; SslMode=none;";
             MySqlCommand cmd = new MySqlCommand();
             cmd.Connection = con;
             // Construir la consulta SQL para actualizar los datos de la persona
@@ -89,7 +89,7 @@ namespace p7
             {
                 
                     MySqlConnection con = new MySqlConnection();
-                    con.ConnectionString = "server=localhost;user=root;pwd=Carolinaloca123;database=mibasesamuelalegre2; SslMode=none;";
+                    con.ConnectionString = "server=localhost;user=root;pwd=Carolinaloca123;database=mibasesamuelalegre; SslMode=none;";
                     MySqlCommand cmd = new MySqlCommand();
                     cmd.Connection = con;
                     // Construir la consulta SQL para actualizar los datos de la persona
