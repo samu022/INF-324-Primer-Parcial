@@ -77,7 +77,7 @@
                         </li>
                          <!--AGREGAMOS EL BOTON PARA EL ROL DIRECTOR-->
                         <li class="nav-item active" runat="server" id="BtnDirector" style="background-color: #0B8DB0; color: white;">
-                           <a class="nav-link" href="promedios.aspx">Promedios (Director)</a>
+                           <a class="nav-link" href="../promedios.aspx">Promedios (Director)</a>
                         </li>
                         <li class="nav-item">
                            <a class="nav-link" href="../Informatica/index.aspx">Carrera de Informatica</a>
