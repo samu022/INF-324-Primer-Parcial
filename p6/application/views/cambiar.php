@@ -83,7 +83,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<div id="body">
 		
-		<h2>Alta de persona</h2>
+		<h2>Cambios de persona</h2>
 
 		<form action="http://localhost/code/index.php/Lectura/cambio_persona" method="post">
 		<h1>Ingrese nuevos datos (Ci debe existir en BD)</h1>
