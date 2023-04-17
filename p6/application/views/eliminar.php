@@ -83,7 +83,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 	<div id="body">
 		
-		<h2>Alta de persona</h2>
+		<h2>Baja de persona</h2>
 
 		<form action="http://localhost/code/index.php/Lectura/baja_persona" method="post">
 
